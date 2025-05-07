@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    background-color: rgb(0,0,3);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+    
+}
+nav{
+    background-color: rgb(16, 16, 65);
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 4rem;
+   
+}
+
+nav ul{
+    display: flex;
+   
+}
+nav ul li{
+    list-style: none;
+    margin-left: 1rem;
+    color:white;
+      
+}
+nav ul li:hover{
+    list-style: none;
+    margin-left: 1rem;
+    color:rgb(147, 147, 226)
+}  
+nav ul a{
+    text-decoration: none;
+}
+#element{
+    color:purple;
+
+}
+.left{
+    font-size: larger;
+  
+}
+main hr{
+    border:0;
+    background:#302f46;
+    height:1.2px;
+    margin:40px 84px;
+}
+
+.firstsection{
+    display: flex;;
+    justify-content: space-around;
+    align-items:center;
+    margin:120px 0;
+
+}
+.firstsection > div{
+    width:30%;
+}
+.leftsection{
+  font-size: 3rem;
+}
+.rightsection{
+  
+}
+.rightsection img{
+    width:70%;
+    border-radius: 50%;
+   
+}
+.purple{
+    color:purple
+    
+}
+.secondsection{
+    max-width: 80vw;
+    margin:auto;
+}
+.text-grey{
+    color:rgb(169, 115, 169)
+}
+.secondsection .box{
+    background: white;
+    width:50vw;
+    height:2px;
+    margin:56px 0;
+    display:flex;
+
+}
+main{
+    height:190vh;
+}
+.secondsection .vertical{
+    height:93px;
+    width:1px;
+    background-color:white;
+    margin:0 100px;
+}
+.secondsection .vertical-title{
+    position:relative;
+    top:75px;
+    width:150px
+
+}
+.secondsection .vertical-desc{
+    position:relative;
+    top:90px;
+    width:150px;
+    font-size: 10px;
+    color:rgb(101, 96, 105)
+}
+  .social-links{
+    background-color:#3c1a4f;
+    color:#fff;
+    text-align:center;
+    padding:20px 0;
+    font-family:Arial,Sans-Serif;
+  }
+  .links{
+    margin:10px 0;
+  }
+  .social-links a{
+    margin:0 10px;
+    text-decoration: none;
+    font-weight:bold;
+  }
+  .about-section{
+    max-width:800px; 
+    margin:50px;
+     padding:30px; 
+     border-radius:10px; 
+     box-shadow: 0 0 15px rgba(0,0,0,0.1); 
+   }
+.about-section h1,h2{
+ color:#2c3e50;
+}
+.about-section ul{
+ list-style-type:disc;
+ margin-left:20px;
+}
+.about-section p,
+.about-section li{
+    line-height: 1.6;
+}
+.register{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+}
+/* Contact Section Css */
+
+.contact{
+    min-height: 100vh;
+    background-color: #e8f0fe;
+    padding:50px;
+    text-align:center;
+    color:black
+}
+.container{
+    max-width:800px;
+    margin:0 auto;
+}
+.container h2{
+    font-size:36px;
+    margin-bottom:40px;
+    color:#333;
+}
+.contact-wrapper{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    grid-gap: 30px;
+}
+.contact-form{
+    text-align:left;
+
+}
+.contact-form h3{
+    font-size:24px;
+    margin-bottom:20px;
+
+}
+.form-group{
+    margin-bottom:20px;
+}
+input,textarea{
+    width:100%;
+    padding:12px;
+    border-radius:8px;
+    border:none;
+    background-color: #f8f9fa;
+    color:#333;
+}
+input:focus,
+textarea:focus{
+    outline:none;
+    box-shadow:0 0 8px #bbb;
+}
+button{
+    display: inline-block;
+    padding:12px 24px;
+    background-color: #4caf50;
+    color:#fff;
+    border:none;
+    transition:0.3s ease;
+}
+button:hover{
+    background-color: #45a049;
+}
+.contact-info{
+    text-align: right;
+}
+.contact-info h3{
+    margin-bottom:20px;
+    font-size:24px;
+    color:#333;
+}
+.contact-info p{
+    margin-bottom: 5px;
+    color:#555;
+}
+.contact-info i{
+    margin-right:5px;
+    color:#4caf50
+}
+@media screen and(max-width:768px){
+    .container{
+        padding: 20px;
+    }
+    contact-wrapper{
+        
+        grid-template-columns:repeat(2,1fr);
+       grid-template-columns: 1fr;
+    }
+}
+.maps{
+    background-color: #e8f0fe;
+}
+.maps h2{
+    padding-left: 40px;
+    margin-bottom:10px;
+}
+
+/* Certicate Styling */
+

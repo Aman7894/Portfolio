@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aman pal-Certificates</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <style>
+       body{
+        display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    
+
+       } 
+       main{
+        flex:1;
+        padding:1rem;
+        max-width:960px;
+        margin:0 auto;
+        display: grid;
+        grid-template-columns: repeat(74,246,226,0.5);
+        gap:1.25rem;
+       }
+       .certificate-box{
+        background: white;
+        border-radius: 12px;
+        box-shadow:0 6px 18px rgba(0,0,0,0.1);
+        padding:1.25rem 1.25rem;
+        transition:transform 0.25px ease , box-shadow 0.25s ease;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between; 
+       }
+       .certificate-box:hover{
+        transform:translate(-6px);
+        box-shadow: 0 12px 24px rgba(0,0,0,0.15);
+       }
+       .certificate-title{
+        font-weight:700;
+        font-size:1.25rem;
+        color:#555;
+        flex-grow:1
+       }
+       .certificate-desc{
+        font-weight:400;
+        font-size:1rem;
+        color:#555;
+        flex-grow:1;
+       }
+       @media(max-width:400px){
+        main{
+            padding:0.5rem;
+            grid-template-columns: 1fr;
+            
+        }
+        .certificate-box{
+            padding:1rem;
+        }
+       }
+       div{
+        height: 40%;
+        width:40%;       }
+      div h1{
+        display: flex;
+        box-shadow: 1px  1px 5px white;
+        justify-content: center;
+        align-items: stretch;
+        position: fixed;
+        
+        margin-top: 10px;
+       }
+    </style>
+    <header>
+        <nav>
+            <div class="left">Aman's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <a href="index.html"><li>Home</li></a>
+                    <a href="#about"><li>About</li></a>
+                    <a href="#projects"><li>Projects</li></a>
+                    <a href="contact.html"><li>Contact Me</li></a>
+                    <a href="certificate.html"><li>Certificates</li></a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- <div>
+        <h1> My Certificates</h1>
+    </div> -->
+   
+    <main>
+        <div class="div">
+            <section class="certificate-box">
+                <h2 class="certificate-title">Resume Maker Certificate</h2>
+                <p class="certificate-desc">Completed intensive Resume Building course that covers how to make ATS friendly Resume.</p>
+            </section>
+        </div>
+        <div>
+            <section class="certificate-box">
+                <img src="assets/t2.jpg" alt="">
+                <h2 class="certificate-title">Hackathon Certificate</h2>
+                <p class="certificate-desc">Participated in NEXEXPLORA Hackathon and gained hands-on experience in project development.</p>
+            </section>
+        </div>
+        <div>
+            <section class="certificate-box">
+                <img src="assets/t1.jpg" alt="">
+                <h2 class="certificate-title">Career Edge- Young Professional Certificate</h2>
+                <p class="certificate-desc">Completed TCS iON's 'Career Edge – Young Professional' program, gaining insights into professional etiquette, business communication, and time management</p>
+            </section>
+        </div>
+       
+       
+        
+    </main>
+</body>
+</html>
